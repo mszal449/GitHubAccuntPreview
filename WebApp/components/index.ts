@@ -1,5 +1,9 @@
-import RepoExplorer from "./RepositoryExplorer";
+import AuthProvider from "./auth/AuthProvider";
+import Navbar from "./Navbar/Navbar";
+import { useAuth } from "./hooks/useAuth";
 
 export {
-    RepoExplorer as RepositoryExplorer
-}
+    AuthProvider,
+    useAuth,
+    Navbar,
+};
